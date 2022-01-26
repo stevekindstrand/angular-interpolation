@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-interpolation';
+  firstname: string = 'Steve';
+  lastname: string = 'Kindstrand';
+  age: number = 31;
+  isMarried: boolean = true;
 }
